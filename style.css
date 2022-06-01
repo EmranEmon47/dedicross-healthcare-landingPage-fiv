@@ -1,0 +1,965 @@
+/* googe font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+*{
+    bottom: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.news{
+    background-color: #F8F6F4;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.news a{
+    text-decoration: none;
+    color: #7F6F64;
+    font-weight: 600;
+    
+}
+.users{
+    display: flex;
+    align-items: center;
+}
+.users div{
+    padding-right: 20px;
+}
+nav li{
+    font-weight: 600;
+    color: #1D3443;
+    margin-right: 30px;
+}
+nav{
+    background-color: white;
+}
+nav button{
+    padding: 18px 36px 18px 36px;
+    background-color: #1D3443;
+    color: white;
+    font-weight: 600;
+}
+.logo{
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.banner{
+    background-image: url(images/Main\ Banner.png);
+   background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 628px;
+}
+.banner-des{
+    margin-left: 220px;
+    padding-top: 180px;
+    
+}
+.about-banner-des{
+    width: 455px;
+    margin-left: 220px;
+    padding-top: 180px;
+}
+.banner-btn button{
+    padding: 18px 36px 18px 36px;
+}
+.banner-btn-1{
+    color: #1D3443;
+    font-weight: 600;
+    /* padding-left: 30px; */
+    background-color: white;
+    border-color: rgba(238, 229, 222);
+}
+.banner-btn-2{
+    background-color: #1D3443;
+    color: white;
+    
+    font-weight: 600;
+}
+
+/* catagories section css */
+
+.catagories-section{
+    background-image: url(images/Image.png);
+    background-repeat: no-repeat;
+    height: 858px;
+}
+
+.catagories-list div{
+    border: 2px solid #1D3443;
+    width: 172px;
+    height: 183px;
+    
+}
+.catagories-list a{
+    text-decoration: none;
+    color: #1D3443;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+.catagories-list div img{
+    margin-bottom: 30px;
+}
+.catagories-des{
+    margin-left: 779px;
+    padding-top: 120px;
+}
+.catagories-des h2{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 15px;
+}
+.catagories-des p{
+    font-weight: 400;
+    size: 16px;
+    color: #61717B;
+    margin-bottom: 30px;
+}
+.more-cata p{
+    font-weight: 700;
+}
+.more-cata{
+    background-color: rgba(235, 237, 237, 0.5);
+    
+}
+
+.more-catagories button{
+    
+    height: 50px;
+    
+    padding: 15px 40px;
+    color: #1D3443;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+   
+}
+.team{
+    background-color: #E5E5E5;
+}
+.team-button{
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.team-button img{
+    width: 312px;
+    border-radius: 30px;
+}
+
+.patient-service-section{
+    background-color: #E3964C;
+    height: 719px;
+}
+.about-patient-service-section{
+    background-color: #E3964C;
+    height: 719px;
+}
+
+.patient-service-des{
+    width: 520px;
+    margin-left: 320px;
+    padding-right: 50px;
+    margin-top: 150px;
+}
+.carusel{
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-right: 10px;
+    width: 1000px;
+}
+.patient-service-des h3{
+    font-weight: 400;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.patient-service-des h5{
+    padding-bottom: 30px;
+}
+.patient-service-des button{
+    background-color: #1D3443;
+    padding: 18px 36px;
+    color: white;
+    font-weight: 600px;
+    margin-bottom: 30px;
+}
+.patient-info-other{
+    padding-left: 600px;
+}
+.more-patient-section{
+    height: 850px;
+   
+    background-position: center;
+   
+    margin-left: 110px;
+    
+}
+.more-patient-section button{
+    background-color: #1D3443;
+    padding: 18px 30px;
+    color: white;
+    margin: 30px;
+    margin-left: 620px;
+    
+}
+.more-patient-link a{
+    text-decoration: none;
+    color: #E3964C;
+    font-weight: 600;
+    font-size: 16px;
+}
+.patient-information{
+    margin-top: 100px;
+    
+}
+/* .quality-home{
+    padding-left: 100px;
+} */
+.patient-info-des{
+    margin-left: 220px;
+    width: 1140px;
+    height: 481px;
+    color: white;
+    background-color: #1D3443;
+    position: relative;
+     
+    padding-top: 90px;
+    
+}
+.patient-images{
+    position: absolute;
+    
+    top: -100px;
+    right: 900px;
+    width: 375px;
+}
+.patient-info-des h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.patient-info-des p{
+    width: 465px;
+    color: #BEC2C6;
+}
+.patient-info-des button{
+    background-color: #E3964C;
+    padding: 18px 59px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.appointment-section{
+    background-image: url(images/Frame\ 5793.png);
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    
+}
+.about-patient-info{
+    padding-bottom: 500px;
+}
+.about-patient-info p{
+ margin-bottom: 300px;
+}
+.appoint-img image{
+    position: absolute;
+    left: 1000px;
+    top: -37.98px;
+    
+    width: 923px;
+}
+.appointment-des{
+    width: 557px;
+    height: 544px;
+    background-color: #E3964C;
+    
+}
+
+.appointment-des h2{
+    font-weight: 400;
+    font-size: 40px;
+    padding: 81px 50px 30px 50px;
+}
+.appointment-des p{
+    padding-left: 50px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.appointment-des button{
+    background-color: #1D3443;
+    padding: 18px 36px;
+    color: white;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 30px;
+    
+}
+.practive-img img{
+    width: 860px;
+}
+.practice-opp-des{
+    margin-left: 100px;
+    width: 200px;
+    padding-top: 178px;
+}
+.practice-opp-des h2{
+    font-size: 40px;
+    font-weight: 40px;
+}
+.practice-opp-des p{
+    color: #61717B;
+    font-size: 24px;
+}
+.practice-opp-des span{
+    color: #61717B;
+}
+.practice-opp-des button{
+    padding: 18px 36px;
+    background-color: #1D3443;
+    color: white;
+    margin-top: 30px;
+}
+.quality-care{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.queality-care-des{
+    background-color: #1D3443;
+    color: white;
+    padding: 60px;
+    margin-right: 200px;
+}
+.queality-care-des button{
+    padding: 18px 36px;
+    background-color: #E3964C;
+    color:#1D3443 ;
+    font-weight: 600;
+}
+.get-touch{
+    display: flex;
+}
+.get-touch-one{
+    background-color: 
+    #E3964C;
+    padding: 120px 40px ;
+    height: 527px;
+}
+.get-touch-one button{
+    background-color: #1D3443;
+    padding: 18px 36px;
+    color: white;
+}
+.get-touch-third{
+    background-color: #1D3443;
+    padding: 120px 50px;
+    height: 527px;
+}
+.get-touch-third h3{
+    color: white;
+}
+.get-touch-third p{
+    color: #BEC2C6;
+}
+.quick-link{
+    display: flex;
+}
+.quick-link-a{
+    padding-top: 170px;
+    padding-left: 120px;
+    width: 520px;
+}
+.quick-link-a h3{
+    font-size: 30px;
+}
+.quick-link-a a{
+    text-decoration: none;
+    color: #E3964C;
+    font-weight: 600;
+   
+}
+
+.footer{
+    height: 497px;
+    background-color: #1D3443;
+}
+.footer-des{
+    padding-top: 73px;
+    margin-left: 60px;
+    color: white;
+}
+.footer-des img{
+    margin-bottom: 30px;
+}
+.footer-des p{
+    padding-bottom: 15px;
+}
+.footer-des p a{
+    text-decoration: none;
+    color: #E4D7CC;
+}
+.footer-description{
+    display: flex;
+}
+.footer-details{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.footer-details div{
+    padding: 30px;
+}
+.footer-details h5{
+    padding-bottom: 20px;
+    color: white;
+}
+.footer-details a{
+    text-decoration: none;
+    color: #BEC2C6;
+}
+.social-part{
+    display: flex;
+    justify-content: space-between;
+}
+.social-part p{
+    color: #E4D7CC;
+}
+.qualitty-care-d img{
+    width: 375px;
+    margin-left: 200px;
+}
+.ending{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* about page */
+.about-banner-img img{
+    width: 900px;
+    height: 600px;
+}
+.patient-info-di{
+    margin-left: 615px;
+    padding-top: 90px;
+}
+/* style="margin-left: 615px; padding-top: 90px;" */
+
+
+/*****************************************
+ Moblies responsive 
+ ***********************************************/
+
+
+ @media only screen and (max-width: 688px){
+
+    .learn-more{
+        display: none;
+    }
+    .news{
+    background-color: #F8F6F4;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.news a{
+    text-decoration: none;
+    color: #7F6F64;
+    font-weight: 600;
+    
+}
+.users{
+    display: flex;
+    align-items: center;
+}
+.users div{
+    padding-right: 20px;
+}
+
+
+.banner{
+    background-image: url(images/Frame\ 4475.jpg);
+    background-size: 375px;
+   
+    background-repeat: no-repeat;
+    
+    
+}
+.banner-des{
+    margin: 0;
+    padding: 0;
+    padding-top: 170px;
+}
+
+.banner-des h1{
+    margin-top: 130px;
+    
+}
+
+.banner-btn button{
+    padding: 18px 36px 18px 36px;
+}
+.banner-btn{
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+}
+.banner-btn-1{
+    color: #1D3443;
+    font-weight: 600;
+   
+    background-color: white;
+    border-color: rgba(238, 229, 222);
+    margin-bottom: 10px;
+}
+.banner-btn-2{
+    background-color: #1D3443;
+    color: white;
+    
+    font-weight: 600;
+}
+
+
+
+.catagories-section{
+    background-image: url(images/Image.png);
+    background-repeat: no-repeat;
+    height: 1400px;
+    background-size: 375px;
+}
+.catagories-list{
+    margin-right: 500px;
+}
+.catagories-list div{
+    border: 2px solid #1D3443;
+    /* width: 172px; */
+    height: 183px;
+    
+}
+.catagories-list a{
+    text-decoration: none;
+    color: #1D3443;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+.catagories-list div img{
+    margin-bottom: 30px;
+}
+.catagories-des{
+    /* margin-left: 779px;
+    padding-top: 120px; */
+    width: 375px;
+    margin: 0;
+    padding: 0;
+    padding-top: 200px;
+    
+}
+.catagories-des h2{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 15px;
+}
+.catagories-des p{
+    font-weight: 400;
+    size: 16px;
+    color: #61717B;
+    margin-bottom: 30px;
+}
+.more-cata p{
+    font-weight: 700;
+}
+.more-cata{
+    background-color: rgba(235, 237, 237, 0.5);
+    
+}
+
+.more-catagories button{
+    
+    height: 50px;
+    
+    padding: 15px 40px;
+    color: #1D3443;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+   
+}
+.team{
+    background-color: #E5E5E5;
+}
+.team-button{
+    padding-left: 300px;
+}
+.team-button img{
+    width: 312px;
+    border-radius: 30px;
+}
+.patient-info-di{
+    margin-left: 0;
+    padding-top: 90px;
+}
+
+.patient-service-section{
+    background-color: #E3964C;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.patient-service-des{
+    width: 375px;
+   margin: 0;
+   padding: 0;
+}
+.new-service{
+    margin-left: 0;
+}
+.carusel{
+    margin: 0;
+    padding: 0;
+    width: 375px;
+}
+.patient-service-des h3{
+    font-weight: 400;
+    font-size: 40px;
+    padding-left: 40px;
+}
+.patient-service-des h5{
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+.patient-service-des button{
+    background-color: #1D3443;
+    padding: 18px 36px;
+    color: white;
+    font-weight: 600px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.patient-service-des img{
+    margin-left: 90px;
+    padding-bottom: 30px;
+}
+.more-patient-section{
+    height: 2000px;
+    
+    background-position: center;
+    
+    margin: 0;
+    
+}
+.more-patient-section button{
+    background-color: #1D3443;
+    padding: 18px 30px;
+    color: white;
+    margin: 30px;
+    margin-left: 100px;
+    
+}
+.more-patient-link a{
+    text-decoration: none;
+    color: #E3964C;
+    font-weight: 600;
+    font-size: 16px;
+}
+.patient-information{
+    margin-top: 100px;
+   width: 375px;
+    
+}
+.patient-info-des{
+   margin: 0;
+   padding: 0;
+    width: 375px;
+    height: 481px;
+    color: white;
+    background-color: #1D3443;
+    position: relative;
+
+    
+}
+.patient-images{
+    position: absolute;
+    /* width: 100px; */
+    top: -200px;
+    right: 600px;
+    display: none;
+}
+
+.patient-info-other{
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    padding: 20px;
+    
+}
+.about-patient-info{
+    margin: 0;
+    padding: 0;
+}
+.patient-info-des{
+    margin: 0;
+    padding: 0;
+
+}
+.patient-info-des h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+.patient-info-des p{
+    width: 375px;
+    color: #BEC2C6;
+}
+.patient-info-des button{
+    background-color: #E3964C;
+    padding: 18px 59px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.appointment-section{
+    background-image: url(images/Frame\ 5793.png);
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.appoint-img{
+    width: 375px;
+}
+.appoint-img image{
+    display: none;
+    width: 375px;
+}
+.appointment-des{
+    width: 375px;
+    height: 504px;
+    background-color: #E3964C;
+    
+}
+.appointment-des h2{
+    font-weight: 400;
+    font-size: 40px;
+    padding: 81px 50px 30px 50px;
+}
+.appointment-des p{
+    padding-left: 50px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.appointment-des button{
+    background-color: #1D3443;
+    padding: 18px 36px;
+    color: white;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.praction-start{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.practive-img img{
+    width: 375px;
+}
+.practice-opp-des{
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    
+}
+.practice-opp-des h2{
+    font-size: 40px;
+    font-weight: 40px;
+   margin: 40px;
+
+}
+.practice-opp-des p{
+    color: #61717B;
+    font-size: 24px;
+    
+}
+.practice-opp-des span{
+    color: #61717B;
+}
+.practice-opp-des button{
+    padding: 18px 36px;
+    background-color: #1D3443;
+    color: white;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.qualitty-care-d{
+    display: flex;
+    flex-direction: column;
+}
+.qualitty-care-d img{
+    width: 375px;
+    margin: 0;
+    margin-left: 0;
+
+}
+.quality-care{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.queality-care-des{
+    background-color: #1D3443;
+    color: white;
+    padding: 60px;
+    margin: 0;
+}
+.queality-care-des button{
+    padding: 18px 36px;
+    background-color: #E3964C;
+    color:#1D3443 ;
+    font-weight: 600;
+}
+.get-touch{
+    display: flex;
+    flex-direction: column;
+}
+.get-touch-one{
+    background-color: 
+    #E3964C;
+    padding: 120px 40px ;
+    height: 527px;
+}
+.get-touch-one button{
+    background-color: #1D3443;
+    padding: 18px 36px;
+    color: white;
+}
+.get-touch-third{
+    background-color: #1D3443;
+    padding: 120px 50px;
+    height: 527px;
+}
+.get-touch-third h3{
+    color: white;
+}
+.get-touch-third p{
+    color: #BEC2C6;
+}
+.quick-link{
+    display: flex;
+    flex-direction: column;
+}
+.quick-link-a{
+    padding-top: 170px;
+    padding-left: 120px;
+    width: 375px;
+    margin-bottom: 100px;
+}
+.quick-link-a h3{
+    font-size: 30px;
+}
+.quick-link-a a{
+    text-decoration: none;
+    color: #E3964C;
+    font-weight: 600;
+   
+}
+
+.footer{
+    height: 1800px;
+    background-color: #1D3443;
+}
+.footer-des{
+    padding-top: 73px;
+    margin-left: 60px;
+    color: white;
+}
+.footer-des img{
+    margin-bottom: 30px;
+}
+.footer-des p{
+    padding-bottom: 15px;
+}
+.footer-des p a{
+    text-decoration: none;
+    color: #E4D7CC;
+}
+.footer-description{
+    display: flex;
+    flex-direction: column;
+}
+.footer-details{
+    display: flex;
+    margin-left: 0;
+    margin-top: 60px;
+    flex-direction: column;
+}
+.footer-details div{
+    padding: 30px;
+}
+.footer-details h5{
+    padding-bottom: 20px;
+    color: white;
+}
+.footer-details a{
+    text-decoration: none;
+    color: #BEC2C6;
+}
+.social-part{
+    display: flex;
+    
+    flex-direction: column;
+}
+.social-part p{
+    color: #E4D7CC;
+    margin: 20px;
+}
+.ending{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    
+}
+.ending-logo{
+    margin-left: 150px;
+}
+.text-end{
+    margin: 20px;
+}
+
+/* about page mobile responsive */
+.banner-about{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.about-banner-img img{
+    width: 375px;
+    
+    margin: 0;
+    padding: 0;
+}
+.about-banner-des{
+    width: 375px;
+    margin-left: 0;
+    margin-top: 30px;
+    padding-top: 0;
+}
+.about-patient-service-section{
+    height: 2000px;
+}
+.team-button{
+    margin: 0;
+    padding: 0;
+}
+
+}
